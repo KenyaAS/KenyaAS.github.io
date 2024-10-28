@@ -1,0 +1,188 @@
+@charset "UTF-8";
+body {
+	margin:0;
+    padding:0;
+    background-color:#000;
+}
+wrapper {
+    width: 1366px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+nav {
+	text-align: center;
+    background-color: #000000;
+}
+nav ul {
+	padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+	padding: 16px 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+	
+header {
+    background-color: #000000;
+    text-align: center;
+    width: 1366px;
+    height: 318px;
+}
+
+.logo {
+    width: 194px;
+    height: 81px;
+    text-align: center;
+}
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+.img-container   {
+    text-align: center;
+    margin-top: 20px;
+}
+#home {
+    background-image: url("images/rod-background.jpg");
+    width: 1366px;
+    height: 911px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+.album {
+    width: 288px;
+    height: 288px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: content-box;
+}
+h1 {
+    color: #FFFFFF;
+    font-family: p22-posada, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150pt;
+    text-align: center;
+	text-shadow: 2px 2px 5px white;
+}
+h2   {
+    color: #FFFFFF;
+    text-align: center;
+	font-family: p22-posada, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+}
+h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+h4 {
+    color: #FFFFFF;
+}
+p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.video   {
+    text-align: center;
+    margin-top: 100px;
+}
+.photo {
+    display: inline-block;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.album-container {
+    margin: 20px;
+    text-align: center;
+}
+.img {
+    width: 800px;
+    height: 450px;
+}
+.title {
+    margin-top: 20px;
+}
+h4 {
+    text-align: center;
+    color: #FFFFFF;
+}
+h5 {
+    color: #000000;
+    
+}
+h6{
+    text-align: left;
+    color: #ffffff;
+    font-size: 11pt;
+}
+.tourdates {
+    background-color: #000000;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    /* [disabled]width: 500px; */
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 21px #000000;
+    box-shadow: 10px 10px 21px #000000;
+}
+.merch {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.policy {
+    background-color: #000000;
+    padding: 10px;
+    margin: 75px;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 21px #000000;
+    box-shadow: 10px 10px 21px #000000;
+}
+.blogs {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.button {
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 630px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px
+}
+.header {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav ul a:hover  {
+}
+.photo-container {
+    text-align: center;
+}
