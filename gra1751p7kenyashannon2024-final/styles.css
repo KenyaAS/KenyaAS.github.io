@@ -1,0 +1,112 @@
+@charset "UTF-8";
+body {
+	margin:0;
+	padding:0;
+	background-color: #ccc;
+}
+wrapper {
+	width: 1366px;
+	display: block;
+	margin:0 auto;
+	background-color: #fff;
+}
+header {
+    height: 75px;
+}
+header img {
+    display: inline-block;
+    width: 30%;
+}
+header h1 {
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 100px;
+    height: 75px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+main {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    margin: 20px;
+    background-position: center center;
+}
+footer {
+    padding: 10px;
+    background-color: rgba(255,255,255,1.00);
+    bottom: 0px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: static;
+    margin-top: 20px;
+}
+
+h1 ,h2,h3{
+    text-align: center;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    padding: 16px;
+    margin-right: -4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#background {
+    background-image: url(images/background.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: #FFC300;
+    border-radius: 20px;
+}
+label {
+    display: block;
+    font-family: sans-serif;
+    padding: 16px;
+    font-size: 12px;
+}
+input ,select{
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 90%;
+}
+#tandc_txt {
+    width: auto;
+    margin-left: 16px;
+    margin-top: -24px;
+}
+#salute {
+    width: 25%;
+    display: inline-block;
+    margin-right: -4px;
+}
+#first {
+    width: 72%;
+    display: inline-block;
+    margin-right: -4px;
+}
+#submit_btn {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #FFC300;
+    font-size: 20px;
+}
